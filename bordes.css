@@ -1,0 +1,42 @@
+.uno {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#b1 {
+    border-radius: 25px;
+    background-color: greenyellow;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b2 {
+    border-radius: 25px;
+    border: 2px solid blueviolet;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b3 {
+    border-radius: 25px;
+    background-image: url(fondo.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b4 {
+    border-radius: 15px 50px;
+    background-color: red;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b5 {
+    border-radius: 50%;
+    background-color: gold;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
