@@ -1,0 +1,51 @@
+img{
+    width: 100%;
+   
+}
+.imagen{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+
+
+
+div.lobo{
+    position: relative;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.19);
+    margin-bottom: 35px;
+}
+div.texto{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+div.texto_lobo{
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lobo:hover .imagen{
+    opacity: 0.3;
+}
+.lobo:hover .texto_lobo{
+    opacity: 1;
+}
+
+.efecto_texto{
+    background-color: red;
+    color: white;
+    font-size: 38px;
+    padding: 6px 22px ;
+}
