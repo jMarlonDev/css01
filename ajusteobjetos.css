@@ -1,0 +1,13 @@
+.contenedor{
+	width: 80%;
+	border: 3px solid red;
+}
+img{
+	width: 500px;
+	height: 340px;
+}
+
+.contenedor img{
+	width: 100%;
+	object-fit: none;
+}
