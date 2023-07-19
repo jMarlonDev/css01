@@ -1,0 +1,12 @@
+/*column sirve para editar las columnas*/
+.columnas{
+	column-count: 3;
+	column-gap: 20px;
+	/*column-rule-style: solid;
+	column-rule-width: 1px;
+	column-rule-color: red;*/
+	column-rule: 2px solid darkmagenta;
+}
+h1{
+	column-span: all;
+}

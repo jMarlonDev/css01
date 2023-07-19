@@ -1,0 +1,22 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: 300px;
+	font-size: 30px;
+}
+/*variable global*/
+.cursos{
+	--curso-color:white;
+	--curso-fondo:green;
+}
+
+.yacklyion{
+	--borde:green;
+	display: inline-block;
+	border: 3px solid var(--borde);
+	padding: 12px;
+	border-radius: 10px;
+}
+.yacklyion:hover{
+	background-color: var(--curso-fondo);
+	color: var(--curso-color);
+}
