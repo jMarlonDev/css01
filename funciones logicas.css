@@ -1,0 +1,10 @@
+body{
+	margin: 0;
+}
+
+div{
+	width: 100vw;
+	height: 400px;
+	background-color: bisque;
+	font-size: clamp(36px, 20px + 3vw, 200px);
+}

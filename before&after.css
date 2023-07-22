@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+.contenedor{
+	text-align: center;
+}
+
+h1{
+	text-transform: uppercase;
+	margin: 200px 0;
+	display: inline-block;
+	position: relative;
+}
+
+h1::before{
+	content: "";
+	width: 30%;
+	height: 4px;
+	background: red;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	
+
+}
+
+h1::after{
+	content: "";
+	
+	
+}
+

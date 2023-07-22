@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.contenedor{
+	position: relative;
+	display: flex;
+	width: 1000px;
+	height: 200px;
+	background-color: red;
+}
+
+.contenedor .cajas{
+	position: relative;
+	min-width: calc(calc(100% / 5) - 20px);
+	height: calc(100% - 20px);
+	background-color: black;
+	margin: 10px 10px;
+}
